@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba9af920-16f5-43fa-9249-98caac19df17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/justcramer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/show_post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
     </list>
     <ignored path="djangoguys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,28 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.875">
+            <state line="3" column="4" selection-start="51" selection-end="51" vertical-scroll-proportion="0.085388996">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="16" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-12.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="368" column="0" selection-start="8811" selection-end="8811" vertical-scroll-proportion="0.4915254">
+            <state line="221" column="9" selection-start="5684" selection-end="5684" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,8 +134,8 @@
         <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/show_post.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -538,23 +520,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.875">
+        <state line="221" column="9" selection-start="5684" selection-end="5684" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="1257" selection-end="1257" vertical-scroll-proportion="-12.25">
+        <state line="12" column="61" selection-start="527" selection-end="527" vertical-scroll-proportion="0.34615386">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="0" selection-start="8811" selection-end="8811" vertical-scroll-proportion="0.4915254">
+        <state line="3" column="4" selection-start="51" selection-end="51" vertical-scroll-proportion="0.085388996">
           <folding />
         </state>
       </provider>
