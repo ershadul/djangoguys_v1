@@ -1,0 +1,3 @@
+*.pyc
+static/justcramer.css
+local_settings.py

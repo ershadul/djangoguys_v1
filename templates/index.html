@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+    {% for post in posts %}
+        <li>
+            <article class="post">
+                <h2><a href="{{ post.get_absolute_url }}">{{ post.headline }}</a></h2>
+                <time><span class="month"><abbr>{{ post.pub_date|date:"F" }}</abbr></span> <span class="day">{{ post.pub_date|date:"d" }}</span> <span
+                        class="year">{{ post.pub_date|date:"Y" }}</span></time>
+                <div class="body">
+                    {{ post.body_text|truncatewords_html:"50" }}
+                </div>
+            </article>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
