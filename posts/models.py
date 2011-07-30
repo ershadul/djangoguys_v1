@@ -10,6 +10,7 @@ class Post(models.Model):
     n_comments = models.IntegerField(default=0)
     rating = models.IntegerField(default=0)
     tags = models.ManyToManyField(Tag, null=True, blank=True)
+    is_published = models.BooleanField(default=0)
     
     def __unicode__(self):
         return self.headline
