@@ -15,7 +15,7 @@ def pygmentize(value):
         soup = BeautifulSoup(value)
         code_blocks = soup.findAll('code')
         for code in code_blocks:
-            print code
+            #print code
             try:
                 lexer = guess_lexer(code.string)
             except ValueError:
