@@ -31,13 +31,14 @@
         <div class="wrapper">
             <h1><a href="/" title="Ershadul Hoques's Blog">Ershadul Hoque</a></h1>
 
-            <h3>Python, Django, PHP, Zend, MongoDB and Scale</h3>
+            <h3>Django, Zend, MongoDB and Scale</h3>
         </div>
     </header>
 
     <nav id="navigation">
         <div class="wrapper">
-            <a class="active" href="/">Posts</a>
+            <a {% ifequal menu_index 0 %}class="active" {% endifequal %} href="/">Recent Posts</a>
+			<a {% ifequal menu_index 1 %}class="active" {% endifequal %} href="/archive/">Archive</a>
             <!--<a href="/tags/">Tags</a>-->
             <a href="http://www.github.com/ershadul">Code</a>
             <a href="http://bd.linkedin.com/in/ershadul">Resume</a>
